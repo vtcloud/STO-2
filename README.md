@@ -16,7 +16,9 @@ instrument effects had to be carefully removed while keeping the
 desired measure signal unchanged.
 
 The full data set for the reduction can be downloaded from the STO-2
-server at The University of Arizona: http://soral.as.arizona.edu/STO2/
+server at The University of Arizona: http://soral.as.arizona.edu/STO2/. As noted below,
+the data should be placed into the directory "./Data/level0.7" relative to the 
+directory from with the notebooks are executed (or modify the notebooks appropriately).
 
 
 The scripts include (in approximate order of execution):
@@ -40,6 +42,34 @@ The following python functions and files are used by the scripts (and are provid
     jupyter_custom.css
     STO2_v35.py
 	
+Python packages required:
+
+    _cffi_backend
+    aplpy
+    astropy
+    datetime
+    glob
+    inspect
+    IPython
+    matplotlib
+    ntpath
+    numpy
+    os
+    pandas
+    scipy
+    sys
+    time
+    warnings
+
+
+
+To run the notebooks, the following directories are required:
+
+    ./Data
+    ./Data/DSS
+    ./Data/level0.7            # this directory contains the data from the STO-2 data server
+    ./Data/processed
+    ./Data/Ref_Specs
 
 
 
