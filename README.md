@@ -34,6 +34,8 @@ The scripts include (in approximate order of execution):
     EtaCar2_plot_full_spectral_map_CII.ipynb
 
 
+The following python functions and files are used by the scripts (and are provided):
+
     ALSFitter.py
     jupyter_custom.css
     STO2_v35.py
