@@ -16,9 +16,18 @@ instrument effects had to be carefully removed while keeping the
 desired measure signal unchanged.
 
 The full data set for the reduction can be downloaded from the STO-2
-server at The University of Arizona: http://soral.as.arizona.edu/STO2/. As noted below,
+server at The University of Arizona:
+
+http://soral.as.arizona.edu/mediawiki/index.php?title=STO-2_Data_Releases_%26_Docs#Obtaining_Level_0.7_Products
+
+The user should download Level 0.7 data since these data include
+essential modifications of the FITS header. The scripts provided here
+have only been used to reduce the data in directories 03800
+to 03995. These directories are also included in the pre-bundled data
+set at http://soral.as.arizona.edu/STO2/level0.7/bundles/etaCar2-spi_3751-4124.txz. As noted below,
 the data should be placed into the directory "./Data/level0.7" relative to the 
-directory from with the notebooks are executed (or modify the notebooks appropriately).
+directory from which the notebooks will be executed (or modify
+directory entries in the notebooks appropriately for any other configuration).
 
 
 The scripts include (in approximate order of execution):
@@ -42,7 +51,7 @@ The following python functions and files are used by the scripts (and are provid
     jupyter_custom.css
     STO2_v35.py
 	
-Python packages required:
+Python packages required (use the latest version available!):
 
     _cffi_backend
     aplpy
